@@ -65,6 +65,11 @@ namespace OppsConcepts
                         m.sum(10, 20);
                         m.sum(20.5f, 30.5f);
                         break;
+                    case 4:
+                        Dog dog = new Dog();
+                        dog.Eat();
+                        dog.Bark();
+                        break;
 
 
 
