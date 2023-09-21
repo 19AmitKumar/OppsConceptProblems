@@ -16,8 +16,8 @@ namespace OppsConcepts
             while (flag)
             {
                 Console.WriteLine("Enter your choice: ");
-                int a=Convert.ToInt32(Console.ReadLine());
-                switch (a)
+                int b=Convert.ToInt32(Console.ReadLine());
+                switch (b)
                 {
                         case 0:
                         flag = false;
@@ -75,12 +75,17 @@ namespace OppsConcepts
                         account.SetBalance(10000);
                         account.GetBalance();
                         break;
+                    case 6:
+                        Employee e = new Employee(333, "Amit", 35000);
+                        e.ShowDetails();
+                        break;
 
 
 
-
-                        Console.ReadLine();
+                    
                 }
+                Console.ReadLine();
+
             }
         }
     }
