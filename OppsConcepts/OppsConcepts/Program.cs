@@ -60,6 +60,11 @@ namespace OppsConcepts
                         Console.WriteLine("Parmanent Employee salary is: " + p.ParmanentSalary);
                         Console.WriteLine("Parmanent Employee Hour is: " + p.ParmanentHour);
                         break;
+                    case 3:
+                        MethodOveloading m = new MethodOveloading();
+                        m.sum(10, 20);
+                        m.sum(20.5f, 30.5f);
+                        break;
 
 
 

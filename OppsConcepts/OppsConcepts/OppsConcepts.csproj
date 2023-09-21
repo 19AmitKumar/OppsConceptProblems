@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ClassAndObject.cs" />
     <Compile Include="Inheritance.cs" />
+    <Compile Include="MethodOveloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
