@@ -70,6 +70,11 @@ namespace OppsConcepts
                         dog.Eat();
                         dog.Bark();
                         break;
+                    case 5:
+                        Account account = new Account();
+                        account.SetBalance(10000);
+                        account.GetBalance();
+                        break;
 
 
 

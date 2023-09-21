@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="ClassAndObject.cs" />
+    <Compile Include="Encapsulation.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="MethodOveloading.cs" />
     <Compile Include="Program.cs" />
