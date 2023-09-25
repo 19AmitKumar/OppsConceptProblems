@@ -128,6 +128,12 @@ namespace OppsConcepts
                         Doctor d = new Doctor("Shyam", 56789, 37, 700);
                         d.Doctordetails();
                         break;
+                        case 12:
+                        Cat cat = new Cat();
+                        cat.Eat();
+                        cat.Birth();
+                        cat.Mew();
+                        break;
 
 
 
