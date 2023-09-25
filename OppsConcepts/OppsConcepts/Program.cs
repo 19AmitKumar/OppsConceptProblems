@@ -134,6 +134,15 @@ namespace OppsConcepts
                         cat.Birth();
                         cat.Mew();
                         break;
+                    case 13:
+                        Constructor c = new Constructor(100, 200);
+                        //Default Constructor
+                        //Console.WriteLine(c.x);
+                        //Console.WriteLine(c.y);
+                        //Parametrised Constructor
+                        Console.WriteLine(c.x);
+                        Console.WriteLine(c.y);
+                        break;
 
 
 

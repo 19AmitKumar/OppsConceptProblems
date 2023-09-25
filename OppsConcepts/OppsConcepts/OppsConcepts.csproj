@@ -46,6 +46,7 @@
     <Compile Include="Abstraction.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="ClassAndObject.cs" />
+    <Compile Include="DifferentTypesOfConstructor.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Hierarchicalnheritance.cs" />
     <Compile Include="Inheritance.cs" />
