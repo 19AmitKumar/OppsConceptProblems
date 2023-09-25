@@ -121,6 +121,13 @@ namespace OppsConcepts
                         Console.WriteLine("The Employee permanent salary is: " + employee.PermanentSalary);
                         Console.WriteLine("The working hour of Employee is: "+employee.PermanentHour);
                         break;
+                        case 11:
+                        Teacher t = new Teacher("Ram", 1234, 33, 1000);
+                        t.Teacherdetails();
+                        Console.WriteLine("-----------------------");
+                        Doctor d = new Doctor("Shyam", 56789, 37, 700);
+                        d.Doctordetails();
+                        break;
 
 
 
