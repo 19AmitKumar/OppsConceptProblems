@@ -134,7 +134,7 @@ namespace OppsConcepts
                         cat.Birth();
                         cat.Mew();
                         break;
-                    case 13:
+                        case 13:
                         Constructor c = new Constructor(100, 200);
                         //Default Constructor
                         //Console.WriteLine(c.x);
@@ -142,6 +142,11 @@ namespace OppsConcepts
                         //Parametrised Constructor
                         Console.WriteLine(c.x);
                         Console.WriteLine(c.y);
+                        break;
+                        case 14:
+                        Rectangle r = new Rectangle(5.5, 4.5, "Blue");
+                        Console.WriteLine("Area of rectangle is: " + r.GetArea());
+                        Console.WriteLine("Color of rectangle is: " + r.GetColor());
                         break;
 
 
