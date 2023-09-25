@@ -148,6 +148,18 @@ namespace OppsConcepts
                         Console.WriteLine("Area of rectangle is: " + r.GetArea());
                         Console.WriteLine("Color of rectangle is: " + r.GetColor());
                         break;
+                        case 15:
+                        AccessModifier acc = new AccessModifier();
+                        //public
+                        //Console.WriteLine(acc.name);
+                        //internal
+                        //Console.WriteLine(acc.d);
+                        //protected
+                        //Program p= new Program();
+                        //Console.WriteLine(p.i);
+                        //Private
+                        acc.Modifier();
+                        break;
 
 
 
