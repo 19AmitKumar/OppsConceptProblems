@@ -103,6 +103,13 @@ namespace OppsConcepts
                         me.Display(5);
                         me.Display(5, 7);
                         break;
+                        case 9:
+                        int a = 5;
+                        //PassByValue.PassBy(a);
+                        //Console.WriteLine(a);
+                        PassByReference.Pass(ref a);
+                        Console.WriteLine(a);
+                        break;
 
 
 

@@ -50,6 +50,7 @@
     <Compile Include="Inheritance.cs" />
     <Compile Include="MethodOveloading.cs" />
     <Compile Include="MethodTypes.cs" />
+    <Compile Include="PassByValueAndReference.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Varibles.cs" />
