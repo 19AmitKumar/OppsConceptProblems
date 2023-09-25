@@ -93,8 +93,21 @@ namespace OppsConcepts
                         Varibles.salary = 1000000;
                         Console.WriteLine(Varibles.name+" has salary "+ Varibles.salary);
                         break;
+                        case 8:
+                        Method me = new Method();
+                        //Methord Return Type Calling
+                        //Console.WriteLine("Sum is: "+ me.MethodReturnType());
+                        //Console.WriteLine("MethodWithParameter sum is: "+me.MethodWithParameter(10,15));
+                        //me.BuildInMethod();
+                        //Method Overloading
+                        me.Display(5);
+                        me.Display(5, 7);
+                        break;
 
-                        
+
+
+
+
 
 
 
