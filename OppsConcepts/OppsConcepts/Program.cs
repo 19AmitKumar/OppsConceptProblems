@@ -79,10 +79,27 @@ namespace OppsConcepts
                         Employee e = new Employee(333, "Amit", 35000);
                         e.ShowDetails();
                         break;
+                    case 7:
+                        //Varibles v = new Varibles();
+                        //Global varible
+                        //v.EngMarks = 75;
+                        //v.MathMarks = 85;
+                        //Console.WriteLine("English Marks: "+v.EngMarks);
+                        //Console.WriteLine("Math Marks: "+v.MathMarks);
+                        //Local Varible
+                        //v.Details();
+                        //static varible
+                        Varibles.name = "Amit";
+                        Varibles.salary = 1000000;
+                        Console.WriteLine(Varibles.name+" has salary "+ Varibles.salary);
+                        break;
+
+                        
 
 
 
-                    
+
+
                 }
                 Console.ReadLine();
 
